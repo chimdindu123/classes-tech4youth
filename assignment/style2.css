@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    height: 100vh; /* Takes full screen height */
+    background-attachment: fixed; /* Creates the parallax scroll effect */
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.parallax h2 {
+    color: red;
+    font-size: 30px;
+    margin: 0;
+}
+
+.image1 {
+    background-image: url('image1.jfif');
+}
+
+.image2 {
+    background-image: url('image2.jfif');
+}
+
+.image3 {
+    background-image: url('image3.jfif');
+}
+
+.image4 {
+    background-image: url('image4.jfif');
+}
+
+.image5 {
+    background-image: url('image5.jfif');
+}

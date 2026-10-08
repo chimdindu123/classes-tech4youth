@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: linear-gradient(rgba(248, 124, 250, 0.539)), url(./images\ \(6\).jfif);
+    background-size: cover; */
+}
+
+.body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    height: 80px;
+    padding: 25px 10%;
+    background: linear-gradient(#c94b65 #4d22c9);
+    color: white;
+}
+
+nav h2 {
+    float: left;
+    margin: 0;
+}
+
+.title {
+    color: white;
+}
+
+.links {
+    float: right;
+}
+
+.links a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 25px;
+    font-size: 12px;
+}
+
+.hero {
+    height: 500px;
+    background-image: linear-gradient(rgba(243, 113, 208, 0.568)), url(./images\ \(6\).jfif);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.words {
+    text-align: center;
+    padding-top: 120px;
+    color: white;
+}
+
+.words h1 {
+    font-size: 60px;
+}
+
+.words p {
+    font-weight: bold;
+}
+
+.box {
+    float: left;
+    height: 180px;
+    text-align: center;
+    padding-top: 50px;
+    background-image: none;
+}
+
+.box h2,
+.box p,
+.box h3 {
+    margin: 5px;
+}
+
+.wednesday {
+    width: 33.33%;
+    background: linear-gradient(rgba(255, 255, 0, 0.329)), url(./images\ \(1\).jfif);
+}
+
+.sunday {
+    width: 33.33%;
+    background: linear-gradient(135deg, #17162571, #29263c79), url(./images\ \(2\).jfif);
+    color: white;
+}
+
+ .counselling{
+        background-image: linear-gradient(rgba(4, 86, 42, 0.5)), url(./images\ \(3\).jfif);
+    width: 33.33%;
+    color: white;
+}
+
+.youth {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5)), url(./images\ \(5\).jfif);
+    width: 66.66%;
+}
+
+.giving {
+    background-image:linear-gradient(rgba(236, 143, 230, 0.518)), url(./images\ \(4\).jfif);
+    width: 33.33%;
+}
+
+.boxes {
+    overflow: auto;
+}
